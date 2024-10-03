@@ -75,4 +75,38 @@ body {
     }
   }
   
+  .profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .github-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    color: #64ffda;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .github-link:hover {
+    color: #5fd7bf;
+  }
+  
+  .github-icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  
   
