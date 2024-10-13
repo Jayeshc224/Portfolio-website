@@ -212,6 +212,7 @@ input:focus, textarea:focus {
 }
 
 button {
+  text-decoration: none; 
   background-color: #64ffda;
   border: none;
   padding: 10px 20px;
@@ -223,7 +224,7 @@ button {
 }
 
 button:hover {
-  background-color: #5fd7bf; /* Darker shade on hover */
+  background-color: #5fd7bf; 
 }
 
 
@@ -242,3 +243,21 @@ button:hover {
     padding: 20px;
   }
 }
+
+.copy-button {
+  padding: 4px 4px; 
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center; 
+  background-color: white;
+}
+
+.copy-button img {
+  width: 20px;
+  height: 20px; /* Keep the image size fixed */
+  object-fit: contain;
+}
+
+
+
